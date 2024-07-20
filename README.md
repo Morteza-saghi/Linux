@@ -1,1 +1,3 @@
-lets put some shit here (:
+# Linux 
+lets put some shit here
+(:
