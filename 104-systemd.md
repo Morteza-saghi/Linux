@@ -1,9 +1,14 @@
 # Systemd and Systemctl Commands
 
-systemd is a software suite that provides an array of system components for Linux operating systems. The main aim is to unify service configuration and behavior across Linux distributions. Its primary component is a "system and service manager" — an init system used to bootstrap user space and manage user processes.
+Systemd is a software suite that provides an array of system components for Linux operating systems. The main aim is to unify service configuration and behavior across Linux distributions. Its primary component is a "system and service manager" — an init system used to bootstrap user space and manage user processes.
 
-## Checking Service Status
+## What is the purpose of the systemd?
+systemd acts as the init system that brings up and maintains user space services when run as the first process on boot (PID 1). PID 1 is known as init and is the first Linux user-mode process created. It runs until the system shutdown. systemd owns PID 1, and is started directly by the kernel.
 
+
+## lets get into the usefull commands  
+
+#### Systemctl is the command-line tool that manages the systemd system and service manager in Linux. It lets users control and manage system services and units with commands to start, stop, restart, and check their status
 
 
 ### Check if a Service is Running
