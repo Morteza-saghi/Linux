@@ -21,11 +21,10 @@ To prevent a service from starting automatically at boot time, use:
 
 `systemctl disable <service_name>`
 
-Stopping and Starting Services
+### Stopping and Starting Services
 
 To manually start or stop a service, you can use:
 
-bash
 
 ```bash
 systemctl start <service_name>
