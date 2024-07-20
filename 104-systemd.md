@@ -7,4 +7,7 @@ systemd is a suite of system management daemons, libraries, and utilities design
 ## Usage
 
 To check if a service is running, use:
-`systemctl is-active <service_name>`
+
+```bash
+systemctl is-active <service_name>
+```bash
