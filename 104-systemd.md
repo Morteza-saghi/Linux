@@ -13,5 +13,9 @@ To check if a service is running, use:
 
 To make sure that the SSH service starts automatically each time your system boots:
 
-
 `systemctl enable <service_name>`
+
+Disabling Services
+
+To prevent a service from starting automatically at boot time, use:
+`systemctl disable <service_name>`
