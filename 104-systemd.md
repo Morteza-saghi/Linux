@@ -10,4 +10,3 @@ To check if a service is running, use:
 
 ```bash
 systemctl is-active <service_name>
-```bash
