@@ -15,7 +15,7 @@ To ensure that a service starts automatically at boot time:
 
 `systemctl enable <service_name>`
 
-Disabling Services
+### Disabling Services
 
 To prevent a service from starting automatically at boot time, use:
 
