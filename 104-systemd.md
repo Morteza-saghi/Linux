@@ -1,7 +1,9 @@
 # Systemd and Systemctl Commands
 
 ## Checking Service Status
----
+
+
+
 ### Check if a Service is Running
 
 `systemctl is-active sshd`
