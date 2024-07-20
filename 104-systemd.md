@@ -3,9 +3,10 @@
 ## Checking Service Status
 
 ### Check if a Service is Running
-```sh
-systemctl is-active sshd
-# Output: active
+
+`systemctl is-active sshd`
+
+/// Sample Output: active
 
 Enable a Service to Start on Boot
 
