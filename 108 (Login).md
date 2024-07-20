@@ -1,4 +1,4 @@
-# Terminal Commands Overview
+# User logged on monitoring
 
 This repository provides information on several useful terminal commands for monitoring user activity and system processes in a Unix-like environment. Below you'll find details on the `last` and `w` commands, as well as an explanation of TTY and PTS.
 
