@@ -1,34 +1,100 @@
-# Systemd and Journalctl Command Reference
+# Systemd and Systemctl Commands
 
-systemd is a suite of system management daemons, libraries, and utilities designed to replace the traditional SysVinit system. It manages system services and resources, handling tasks like starting and stopping services, managing system states, and logging.
+## Checking Service Status
 
+### Check if a Service is Running
+```sh
+systemctl is-active sshd
+# Output: active
+
+Enable a Service to Start on Boot
+
+`systemctl enable sshd`
+
+Description: Enabling the SSH service with systemctl enable sshd ensures that the SSH daemon will automatically start on future boots, allowing remote SSH connections to your system.
+
+Disable a Service
+
+
+`systemctl disable sshd`
+
+Description: Disabling the SSH service with systemctl disable sshd will prevent it from starting on future boots.
+
+Systemd Configuration Directory
+
+`Path: /etc/systemd/system/`
+
+Checking System Status
+Determine Overall System Status
+
+
+`systemctl is-system-running`
+
+
+Description: This command is used to determine the overall status of a Linux system managed by systemd. It provides a summary of the system's state.
+
+Possible Outputs
+
+    running: The system is fully operational and all units are active or in their desired state.
+    degraded: The system is operational, but some units are not functioning correctly.
+    maintenance: The system is in maintenance mode.
+    initializing: The system is still in the process of starting up.
+    starting: The system is in the early stages of booting up.
+    stopping: The system is in the process of shutting down.
+    offline: The system is offline and systemd is not managing it actively.
+    unknown: The system's state cannot be determined.
+
+## Viewing Logs with Journalctl
+### View Logs for a Specific Service
+
+`journalctl -u <service_name>`
+
+### View Logs Since the Last Boot
+
+`journalctl -b`
+
+### View Logs for a Specific Service Since the Last Boot
+
+
+`journalctl -u <service_name> -b`
+
+### View the Last 10 Lines of Logs
+
+`journalctl -n 10`
+
+### View Logs for a Specific User
+
+`journalctl _UID=<user_id>`
+
+### View Logs from the Last Day
+
+`journalctl --since yesterday`
+
+### View Logs for a Specific Service from the Last Day
+
+`journalctl -u <service_name> --since yesterday`
+
+### View Logs from the Last Day (Alternative Command)
+
+`journalctl -S -1d`
 ---
+- Note: -S is the short term for --since.
+---
+### View Logs from the Last 10 Minutes
 
-## Usage
+`journalctl --since "10 minutes ago"`
 
-To check if a service is running, use:
+## View Logs for a Specific Service from the Last Hour or Minutes
+For viewing logs for the SSH service (sshd):
 
+`journalctl -u sshd --since "1 hour ago"`
 
-`systemctl is-active <service_name>`
+Commonly Used Command to See Recent Logs
 
-To ensure that a service starts automatically at boot time:
+`journalctl -xe`
 
-`systemctl enable <service_name>`
+### Description: This command is commonly used to see the most recent logs created.
 
-### Disabling Services
+Note: Ensure you replace <service_name> and <user_id> with the actual service name and user ID you are interested in.
 
-To prevent a service from starting automatically at boot time, use:
-
-`systemctl disable <service_name>`
-
-### Stopping and Starting Services
-
-To manually start or stop a service, you can use:
-
-
-### Systemd Configuration and Status
-Systemd configuration files are located in the following directory:
-
-``` /etc/systemd/
-
-This directory contains service unit files and other configuration files used by systemd.
+Done. Good job!
