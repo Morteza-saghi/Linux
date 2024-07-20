@@ -20,9 +20,3 @@ we also can :
 
 ```bash
 systemctl disable <service_name>
-to do the opposite
-
-Systemd Configuration and Status Check
-Systemd Configuration Directory
-
-### Systemd configurations are located in the following directory:
