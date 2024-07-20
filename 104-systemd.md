@@ -6,7 +6,7 @@
 
 `systemctl is-active sshd`
 
-/// Sample Output: active
+- Sample Output: active
 
 Enable a Service to Start on Boot
 
