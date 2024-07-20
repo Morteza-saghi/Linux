@@ -20,7 +20,7 @@ systemd acts as the init system that brings up and maintains user space services
 
 ---
 
-Enable a Service to Start on Boot
+### Enable a Service to Start on Boot
 
 `systemctl enable sshd`
 
@@ -28,21 +28,15 @@ Description: Enabling the SSH service with systemctl enable sshd ensures that th
 
 ---
 
-Disable a Service
+### Disable a Service
 
 `systemctl disable sshd`
 
 Description: Disabling the SSH service with systemctl disable sshd will prevent it from starting on future boots.
 
 ---
-Systemd Configuration Directory
-
-`Path: /etc/systemd/system/`
-
----
 
 ### Checking System Status
-Determine Overall System Status
 
 `systemctl is-system-running`
 
@@ -135,6 +129,14 @@ Commonly Used Command to See Recent Logs
 `journalctl -xe`
 
 ### Description: This command is commonly used to see the most recent logs created.
+
+---
+
+Systemd Configuration Directory
+
+`Path: /etc/systemd/system/`
+
+---
 
 Note: Ensure you replace <service_name> and <user_id> with the actual service name and user ID you are interested in.
 
