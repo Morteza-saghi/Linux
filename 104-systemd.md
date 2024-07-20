@@ -10,6 +10,7 @@ systemd acts as the init system that brings up and maintains user space services
 
 #### Systemctl is the command-line tool that manages the systemd system and service manager in Linux. It lets users control and manage system services and units with commands to start, stop, restart, and check their status
 
+---
 
 ### Check if a Service is Running
 
