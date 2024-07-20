@@ -1,0 +1,9 @@
+# Systemd and Journalctl Commands
+
+## Checking Service Status
+
+- **To check if a service is running:**
+  ```bash
+  systemctl is-active sshd
+
+Output: is active
