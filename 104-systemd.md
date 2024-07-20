@@ -17,6 +17,5 @@ To make sure that the SSH service starts automatically each time your system boo
 systemctl enable <service_name>
 
 we also can :
-
 ```bash
 systemctl disable <service_name>
