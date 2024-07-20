@@ -26,6 +26,11 @@ To prevent a service from starting automatically at boot time, use:
 To manually start or stop a service, you can use:
 
 
+### Systemd Configuration and Status
+Systemd configuration files are located in the following directory:
+
 ```bash
-systemctl start <service_name>
-systemctl stop <service_name>
+/etc/systemd/
+
+This directory contains service unit files and other configuration files used by systemd.
+
