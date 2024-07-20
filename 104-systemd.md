@@ -29,8 +29,7 @@ To manually start or stop a service, you can use:
 ### Systemd Configuration and Status
 Systemd configuration files are located in the following directory:
 
-```bash
-/etc/systemd/
+```bash /etc/systemd/
 
 This directory contains service unit files and other configuration files used by systemd.
 
