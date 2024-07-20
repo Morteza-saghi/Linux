@@ -14,9 +14,7 @@ systemd acts as the init system that brings up and maintains user space services
 
 ### Check if a Service is Running
 
-```
-systemctl is-active sshd
-```
+`systemctl is-active sshd`
 
 - Sample Output: active
 
