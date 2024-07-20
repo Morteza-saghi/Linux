@@ -70,11 +70,12 @@ markdown
 
 `Inline code`
 
-```python
+```
+
 def hello_world():
     print("Hello, world!")`
 
-
+```
 
 
 Horizontal Rule:
