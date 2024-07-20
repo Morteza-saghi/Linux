@@ -71,14 +71,18 @@ markdown
 `Inline code`
 
 ```python
+
 def hello_world():
     print("Hello, world!")
+
+
 
 Horizontal Rule:
 
     Use ---, ***, or ___ to create a horizontal rule.
 
-markdown
+
+
 
 ---
 
