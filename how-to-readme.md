@@ -71,10 +71,8 @@ markdown
 `Inline code`
 
 ```
-
 def hello_world():
     print("Hello, world!")`
-
 ```
 
 
