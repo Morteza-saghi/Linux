@@ -27,8 +27,7 @@ Systemd Configuration Directory
 
 ### Systemd configurations are located in the following directory:
 
-```bash
-/etc/systemd/system/
+`/etc/systemd/system/`
 
 This directory contains the unit files and configuration settings used by systemd to manage system services and other system states.
 Checking System Status with systemctl is-system-running
