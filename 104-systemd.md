@@ -27,5 +27,6 @@ To manually start or stop a service, you can use:
 
 bash
 
-`systemctl start <service_name>
-systemctl stop <service_name>`
+```bash
+systemctl start <service_name>
+systemctl stop <service_name>
