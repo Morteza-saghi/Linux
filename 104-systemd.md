@@ -8,10 +8,10 @@ systemd is a suite of system management daemons, libraries, and utilities design
 
 To check if a service is running, use:
 
-```bash
-systemctl is-active <service_name>
+
+`systemctl is-active <service_name>`
 
 To make sure that the SSH service starts automatically each time your system boots:
 
-```bash
-systemctl enable <service_name>
+
+`systemctl enable <service_name>`
