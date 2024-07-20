@@ -58,6 +58,9 @@ Possible Outputs
 
 ## Viewing Logs with Journalctl
 
+The `journalctl` command is part of the systemd suite of utilities and is used to query and display log messages from the systemd journal. The systemd journal is a centralized logging system that collects and stores log data from various sources, including system services, kernel events, and user applications.
+
+
 ### View Logs for a Specific Service
 
 `journalctl -u <service_name>`
