@@ -200,9 +200,13 @@ systemctl set-default <target>
 ---
 
 
+to display the configuration or the content of a specific systemd unit file
 
+```
+systemctl cat <targetname>
+```
 
-
+---
 
 Note: Ensure you replace <service_name> and <user_id> with the actual service name and user ID you are interested in.
 
