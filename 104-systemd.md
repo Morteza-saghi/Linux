@@ -159,6 +159,18 @@ runlevels are:
     5: Multi-user mode with networking and graphical user interface (GUI)
     6: Reboot (restarts the system)
 
+### Targets
+With the introduction of systemd, the concept of runlevels was replaced by targets. Targets are more flexible and powerful, providing a way to group units (services, mount points, devices, etc.) and bring the system to a specific state.
+
+
+commonly used systemd targets are:
+
+    default.target: The default system target (usually a symbolic link to either graphical.target or multi-user.target).
+    rescue.target: Similar to single-user mode; for emergency and administrative tasks.
+    multi-user.target: Equivalent to runlevel 3; a non-graphical multi-user system.
+    graphical.target: Equivalent to runlevel 5; a multi-user system with a graphical interface.
+    reboot.target: Reboots the system.
+    poweroff.target: Shuts down the system.
 
 
 
