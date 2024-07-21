@@ -211,5 +211,4 @@ systemctl cat <targetname>
 Note: Ensure you replace <service_name> and <user_id> with the actual service name and user ID you are interested in.
 
 > Contributions are welcome! Please fork this repository and submit pull requests for any improvements or additions.
-
 > Feel free to open issues for any questions or feedback. Thank you for using and contributing !
