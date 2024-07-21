@@ -133,7 +133,7 @@ Commonly Used Command to See Recent Logs
 
 `journalctl -xe`
 
-### Description: This command is commonly used to see the most recent logs created.
+Description: This command is commonly used to see the most recent logs created.
 
 ---
 
