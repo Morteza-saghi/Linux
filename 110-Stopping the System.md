@@ -29,12 +29,12 @@ poweroff
 
 ### Specify a Delay
 
-Specify a delay (in seconds) before powering off.
+schedule a delay and broadcast a message to all logged-in users
 
 
 ```
 shutdown -h +min "the message."
-just like this:
+Like:
 shutdown -h +10 "This server will go down in 10 minutes."
 ```
 
