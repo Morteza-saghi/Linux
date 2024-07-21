@@ -165,12 +165,42 @@ With the introduction of systemd, the concept of runlevels was replaced by targe
 
 commonly used systemd targets are:
 
-    default.target: The default system target (usually a symbolic link to either graphical.target or multi-user.target).
-    rescue.target: Similar to single-user mode; for emergency and administrative tasks.
-    multi-user.target: Equivalent to runlevel 3; a non-graphical multi-user system.
-    graphical.target: Equivalent to runlevel 5; a multi-user system with a graphical interface.
-    reboot.target: Reboots the system.
-    poweroff.target: Shuts down the system.
+    0: default.target: The default system target (usually a symbolic link to either graphical.target or multi-user.target).
+    1: rescue.target: Similar to single-user mode; for emergency and administrative tasks.
+    2: multi-user.target: Equivalent to runlevel 3; a non-graphical multi-user system.
+    3: graphical.target: Equivalent to runlevel 5; a multi-user system with a graphical interface.
+    4: reboot.target: Reboots the system.
+    5: poweroff.target: Shuts down the system.
+
+
+
+### Managing Targets
+
+---
+ you can view the current target using:
+
+```
+systemctl get-default
+```
+---
+
+To change the target, use:
+
+```
+systemctl isolate <target>
+```
+---
+
+
+To set the default target:
+```
+systemctl set-default <target>
+```
+
+---
+
+
+
 
 
 
