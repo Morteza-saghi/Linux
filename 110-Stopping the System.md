@@ -68,6 +68,11 @@ wall "System maintenance in 10 minutes"
 ## message of the day (MOTD).
 The /etc/motd file contains the message of the day that is displayed to users after they log in.
 
+```
+nano /etc/motd
+```
+
+
 Edit the content as desired.
 Save and close the file.
 
