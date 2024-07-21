@@ -177,14 +177,14 @@ commonly used systemd targets are:
 ### Managing Targets
 
 ---
- you can view the current target using:
+#### you can view the current target using:
 
 ```
 systemctl get-default
 ```
 ---
 
-To change the target, use:
+#### To change the target, use:
 
 ```
 systemctl isolate <target>
@@ -192,7 +192,7 @@ systemctl isolate <target>
 ---
 
 
-To set the default target:
+#### To set the default target:
 ```
 systemctl set-default <target>
 ```
@@ -200,7 +200,7 @@ systemctl set-default <target>
 ---
 
 
-to display the configuration or the content of a specific systemd unit file
+#### to display the configuration or the content of a specific systemd unit file
 
 ```
 systemctl cat <targetname>
