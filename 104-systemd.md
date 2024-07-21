@@ -143,6 +143,25 @@ Systemd Configuration Directory
 
 ---
 
+## Runlevels and Targets
+runlevels and targets are mechanisms used to define the state and functionality of the operating system at a given time. They serve to control what services and processes are running. 
+
+### Runlevels
+Runlevels are a legacy concept from the System V (SysV) init system, used to define various states of the machine. Each runlevel represents a different mode of operation. 
+
+runlevels are:
+
+    0: Halt (shuts down the system)
+    1: Single-user mode (for administrative tasks)
+    2: Multi-user mode without networking (rarely used)
+    3: Multi-user mode with networking (standard for text mode)
+    4: Undefined (customizable)
+    5: Multi-user mode with networking and graphical user interface (GUI)
+    6: Reboot (restarts the system)
+
+
+
+
 Note: Ensure you replace <service_name> and <user_id> with the actual service name and user ID you are interested in.
 
 Done. Good job!
