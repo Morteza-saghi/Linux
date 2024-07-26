@@ -28,6 +28,22 @@ The `w` command shows information about the users currently logged into the mach
 - **PCPU:** Time used by the current process.
 - **WHAT:** Command being executed.
 
+---
+
+#### The last command reads from the 
+
+```
+nano /var/log/wtmp
+```
+
+also related directories
+
+```
+/var/run/utmp
+```
+
+---
+
 ## Viewing Processes in a TTY
 
 To see the processes inside of a specific TTY, you can use the following command:
