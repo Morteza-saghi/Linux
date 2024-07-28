@@ -231,7 +231,10 @@ The cut command in Linux is used for extracting sections from each line of a fil
 Description: Select specific bytes.
 Example:
 
+```
 echo "Hello, World!" | cut -b 1-5
+```
+
 ---
 
 
