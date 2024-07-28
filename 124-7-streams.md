@@ -325,3 +325,96 @@ sort data.txt | uniq -c
 ```
 
 ---
+
+### Tr 
+
+-s: Squeeze consecutive repeated characters into a single character.
+
+```
+echo "hello     world" | tr -s ' '
+```
+
+---
+
+Translating Characters
+
+- Lowercase to Uppercase
+
+```
+echo "hello world" | tr 'a-z' 'A-Z'
+```
+
+---
+
+Replacing Specific Characters
+
+```
+echo "hello world" | tr 'eo' 'EO'
+```
+
+---
+
+
+### Sed
+The sed command in Linux stands for Stream Editor. It is a powerful tool for performing text transformations on an input stream (a file or input from a pipeline). Common tasks include text substitution, deletion, insertion, and basic text manipulation.
+
+
+basid syntax
+
+```
+sed 's/TAKE-THIS/PUT-THIS/' this-file.sh
+
+s is for Substitution
+
+```
+---
+
+Case-Insensitive Substitution
+
+```
+echo "Hello world" | sed 's/world/Universe/I'
+```
+
+Delete Specific Line
+
+```
+sed '2d' filename.txt
+```
+
+Deletes the second line from filename.txt.
+
+
+### WC
+The wc (word count) command in Linux is used to display the number of lines, words, and bytes in files. It can also provide counts for individual files or from standard input. This command is often used for quick statistics about files.
+
+```
+wc filename.txt
+```
+
+This command outputs the number of lines, words, and bytes in filename.txt.
+
+Example output:
+
+```
+10  50  300 filename.txt
+```
+it means:
+
+```
+10 lines
+50 words
+300 bytes
+```
+
+---
+
+Count Lines Only
+
+```
+wc -l filename.txt
+```
+
+---
+
+
+
