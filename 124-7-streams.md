@@ -285,7 +285,7 @@ Example:
 echo -e "a\nc\nb" | sort -r
 ```
 
-#### uniq
+### uniq
 The uniq command in Linux is used to filter out repeated lines in a text file, effectively removing duplicates. It is often used in combination with sort to ensure that adjacent duplicate lines are correctly identified and removed.
 
 
