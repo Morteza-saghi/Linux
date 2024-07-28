@@ -99,7 +99,8 @@ It is equivalent to running bzip2 -dc file.bz2.
 
 xzcat is used to decompress files that have been compressed using the xz compression algorithm.
 
-    Usage:
+Usage:
+
 ```
 xzcat file.xz
 ```
