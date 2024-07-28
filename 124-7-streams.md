@@ -39,11 +39,15 @@ ls non_existent_file 2> error.log writes the error message to error.log.
 Redirection allows you to change the default input/output sources for commands. Common redirection operators include:
 
 ```
-    > Redirect stdout to a file.
-        Example: echo "Hello, World!" > hello.txt writes to hello.txt.
+> Redirect stdout to a file.
+Example: echo "Hello, World!" > hello.txt writes to hello.txt.
 ```
-    >> Append stdout to a file.
-        Example: echo "Another line" >> hello.txt appends to hello.txt.
+
+---
+
+```
+>> Append stdout to a file.
+Example: echo "Another line" >> hello.txt appends to hello.txt.
 ```
 
 ---
