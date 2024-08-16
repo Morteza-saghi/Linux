@@ -16,7 +16,7 @@ htop
 
 Change display settings and sorting options via F2 (Setup).
 
-####Search and Filter:
+#### Search and Filter:
 
 Use F3 to search for specific processes.
 Use F4 to apply filters to the process list.
