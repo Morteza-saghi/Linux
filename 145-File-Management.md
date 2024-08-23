@@ -65,13 +65,18 @@ here are some examples
 
 ### Changing File Ownership
 
-- **Using `chown`**:
-  - `chown user filename`: Changes the owner of the file.
-  - `chown user:group filename`: Changes the owner and group of the file.
-  - `chown -R user:group directory_name`: Recursively changes the owner and group of all files in a directory.
+![2](https://github.com/user-attachments/assets/4c0d25b4-3534-4ebc-b4b4-4651177331bb)
 
-- **Using `chgrp`**:
-  - `chgrp group filename`: Changes the group ownership of the file.
+
+- **Using `chown`**:
+
+```  
+chown user filename`: Changes the owner of the file.
+chown user:group filename`: Changes the owner and group of the file.
+chown -R user:group directory_name`: Recursively changes the owner and group of all files in a directory.
+```
+
+---
 
 ### Special Permissions
 
