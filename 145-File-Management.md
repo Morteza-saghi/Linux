@@ -51,11 +51,11 @@ here are some examples
 `chmod 755 filename`: Sets the file permission to `rwxr-xr-x`.
 ```
 
+```
 - `7` = `rwx` (4+2+1)
 - `5` = `r-x` (4+0+1)
 - `5` = `r-x` (4+0+1)
 ```
-
 ---
 
 ### File Ownership
