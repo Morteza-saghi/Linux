@@ -5,7 +5,7 @@
 
 Linux file permissions are represented as a string of 10 characters (e.g., `-rwxr-xr--`).
 
-
+![1](https://github.com/user-attachments/assets/8e473eb5-7d69-4b1e-a920-2de5fa9a0b61)
 
 
 
