@@ -62,9 +62,6 @@ Characteristics of Soft Links
 
 
 
----
-
-
 
 ## Locating in linux 
 
