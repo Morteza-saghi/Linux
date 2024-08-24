@@ -93,7 +93,7 @@ This command searches for file.txt within the /home/user directory.
 
 
 
-Common Examples
+### Common Examples
 
 Search by name:
 
