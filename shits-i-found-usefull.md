@@ -40,7 +40,7 @@ at 14:30
 
 ---
 
-### To view the list of jobs you've scheduled with at, use:
+To view the list of jobs you've scheduled with at, use:
 
 ```
 atq
