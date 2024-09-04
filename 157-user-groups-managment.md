@@ -36,7 +36,7 @@ sudo usermod -aG sudo mo
 - `-l NEW_USERNAME`: Change the username.
 - `-d /new/home`: Change the user's home directory.
 
-
+- ps: this kind of group modification for user can also be done form the file in `/etc/group`. 
 ---
 
 
