@@ -1,4 +1,4 @@
-#!binbash
+#! /bin/bash
 
 while true; do
     ts=$(kubectl get pods -A  grep Terminating  awk '{print $1, $2}')
