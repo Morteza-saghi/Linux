@@ -37,6 +37,14 @@ tar -xzvf filename.tar.gz
 nano /etc/nginx/nginx.conf
 ```
 
+
+do this if needed to reconfigure
+
+```
+nginx -s reload
+```
+
+
 #### here is the file to have a inpration 
 - to have a better undrestanding i have 3 subdomain and all 3 are containers listening on difrent ports
 
