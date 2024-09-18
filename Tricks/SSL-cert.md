@@ -18,11 +18,16 @@ certbot certonly --manual --preferred-challenges=dns --email <theemail> --server
 the certs are made in this directory 
 
 ```
-
+cd /etc/letsencrypt/archive
 ```
 
+ what i do is this 
 
-
+```
+tar -czvf filename.tar.gz filename.ir
+chown user:user filename #give access to needed user
+tar -xzvf filename.tar.gz
+```
 
 ### im using the nginx so i did the redirections and force https and the location of the certs for my nginx.conf file 
 
