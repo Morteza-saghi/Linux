@@ -35,3 +35,7 @@ export PROMPT_COMMAND="history -a; $PROMPT_COMMAND" # Write history after every 
 
 
 all of these configurations were made for debian
+
+
+
+- for termius i used monokai theme and Jetbrains mono as font 
