@@ -52,4 +52,6 @@ http {
 
 ---
 
-By splitting domain configurations into separate files and fixing the Nginx user issue, we have improved the maintainability, clarity, and robustness of the Nginx setup. The new structure isolates domain-specific configurations while the main nginx.conf remains lightweight, focusing only on core settings. Furthermore, resolving the user issue ensures that Nginx runs smoothly under the correct user on the system.
+By splitting domain configurations into separate files and fixing the Nginx user issue, we have improved the maintainability, clarity, and robustness of the Nginx setup.
+
+The new structure isolates domain-specific configurations while the main nginx.conf remains lightweight, focusing only on core settings. Furthermore, resolving the user issue ensures that Nginx runs smoothly under the correct user on the system.
