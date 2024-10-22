@@ -138,6 +138,19 @@ sudo useradd -r -s /usr/sbin/nologin backupuser
 ```bash
 sudo useradd -m -s /usr/sbin/nologin guestuser
 ```
+passwrod content gets stored in the 
+
+```
+/etc/shadow   
+```
+
+typically, the first line describes the root user, followed by the system and normal user accounts. New entries are appended at the end of the file.
+
+Each line of the /etc/shadow file contains nine comma-separated fields:
+
+
+
+
 
 
 
