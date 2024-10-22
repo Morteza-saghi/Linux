@@ -143,6 +143,10 @@ passwrod content gets stored in the
 ```
 /etc/shadow   
 ```
+Use ![an image](./img/3.png) for images.
+
+
+
 
 typically, the first line describes the root user, followed by the system and normal user accounts. New entries are appended at the end of the file.
 
