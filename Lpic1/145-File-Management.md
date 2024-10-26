@@ -26,8 +26,6 @@ chmod g-w filename`: Removes write permission for the group.
 chmod o+r filename`: Adds read permission for others.
 chmod -x filename` : removes exec permission from everyone.
 chmod u+x,g+x,o+x filename`: add execute permission to everyone.
-
-
 ```
 
 
