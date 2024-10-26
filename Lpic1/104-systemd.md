@@ -115,7 +115,7 @@ The `journalctl` command is part of the systemd suite of utilities and is used t
 
 ---
 
-### To get logs from the last 10 minutes
+### View logs from the last 10 minutes
 
 `journalctl -S -10min`
 
