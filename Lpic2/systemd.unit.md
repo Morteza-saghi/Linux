@@ -29,11 +29,13 @@ Section Breakdown
 
 ### 1.[Unit]
 
+
 Description: A brief description of the service.
 After: Defines the order for starting services; this service starts after network.target.
 
 
 ### 2.[Service]
+
 
 Type: Defines the process type, determining how systemd should expect the service process to behave.
 ExecStart: The command to start the service.
@@ -44,7 +46,9 @@ RestartSec: Time to wait before a restart attempt.
 User and Group: Specify which user and group will run the service.
 
 
+
 ### 3.[Install]
+
 
 WantedBy: Specifies targets under which this service will be enabled. Common options include multi-user.target and graphical.target.
 [Service] Type Directive
@@ -53,6 +57,8 @@ The Type directive tells systemd how it should expect the service process to beh
 
 
 ### 4.Type=simple (default)
+
+
 Description: This is the default type. systemd considers the service to be running as soon as the ExecStart command begins. systemd does not expect the service to fork a new process or run in the background.
 
 Usage: Good for services that don’t daemonize (run as background processes), such as scripts that remain in the foreground until they’re killed.
