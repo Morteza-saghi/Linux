@@ -71,8 +71,10 @@ events {}
 ```
 
 ---
+
 location /salam: This block serves files from /saghi/ when the URL /salam is accessed.
 Nginx looks for index.html or a similar default file in the specified directory when serving content.
+
 ---
 
 - Important Note
